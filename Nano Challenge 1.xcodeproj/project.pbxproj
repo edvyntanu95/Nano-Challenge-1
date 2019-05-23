@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B618D707229277CB0091C188 /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = B618D706229277CA0091C188 /* Sound */; };
 		B66636BC228EBF24006B90E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66636BB228EBF24006B90E5 /* AppDelegate.swift */; };
 		B66636BE228EBF24006B90E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66636BD228EBF24006B90E5 /* ViewController.swift */; };
 		B66636C1228EBF24006B90E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66636BF228EBF24006B90E5 /* Main.storyboard */; };
 		B66636C3228EBF25006B90E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66636C2228EBF25006B90E5 /* Assets.xcassets */; };
 		B66636C6228EBF25006B90E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66636C4228EBF25006B90E5 /* LaunchScreen.storyboard */; };
+		B66636D0228EBFC0006B90E5 /* Particles.sks in Resources */ = {isa = PBXBuildFile; fileRef = B66636CF228EBFC0006B90E5 /* Particles.sks */; };
+		B66636D2228FB9E2006B90E5 /* Moved.png in Resources */ = {isa = PBXBuildFile; fileRef = B66636D1228FB9E2006B90E5 /* Moved.png */; };
+		B66636D4228FB9EC006B90E5 /* Object.png in Resources */ = {isa = PBXBuildFile; fileRef = B66636D3228FB9EC006B90E5 /* Object.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B618D706229277CA0091C188 /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sound; path = Asset/Sound; sourceTree = SOURCE_ROOT; };
 		B66636B8228EBF24006B90E5 /* Nano Challenge 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66636BB228EBF24006B90E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B66636BD228EBF24006B90E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		B66636C2228EBF25006B90E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B66636C5228EBF25006B90E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B66636C7228EBF25006B90E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66636CF228EBFC0006B90E5 /* Particles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Particles.sks; sourceTree = "<group>"; };
+		B66636D1228FB9E2006B90E5 /* Moved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Moved.png; path = Asset/Moved/Moved.png; sourceTree = SOURCE_ROOT; };
+		B66636D3228FB9EC006B90E5 /* Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Object.png; path = Asset/Default/Object.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				B66636C2228EBF25006B90E5 /* Assets.xcassets */,
 				B66636C4228EBF25006B90E5 /* LaunchScreen.storyboard */,
 				B66636C7228EBF25006B90E5 /* Info.plist */,
+				B66636CF228EBFC0006B90E5 /* Particles.sks */,
+				B66636D1228FB9E2006B90E5 /* Moved.png */,
+				B66636D3228FB9EC006B90E5 /* Object.png */,
+				B618D706229277CA0091C188 /* Sound */,
 			);
 			path = "Nano Challenge 1";
 			sourceTree = "<group>";
@@ -122,9 +134,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66636D2228FB9E2006B90E5 /* Moved.png in Resources */,
+				B618D707229277CB0091C188 /* Sound in Resources */,
 				B66636C6228EBF25006B90E5 /* LaunchScreen.storyboard in Resources */,
+				B66636D4228FB9EC006B90E5 /* Object.png in Resources */,
 				B66636C3228EBF25006B90E5 /* Assets.xcassets in Resources */,
 				B66636C1228EBF24006B90E5 /* Main.storyboard in Resources */,
+				B66636D0228EBFC0006B90E5 /* Particles.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
